@@ -8,7 +8,7 @@ Snake is a simple game where a line (representing a snake) is moved around the s
 * Google Chrome Version 69. 
 
 ## Installation
-1. Clone the repo. Javascript all runs in the browser.
+1. Clone the repo. This is all client-side and runs in the browser!
 
 ## Usage
 Open `index.html` in Chrome and follow the instructions in the game. 
