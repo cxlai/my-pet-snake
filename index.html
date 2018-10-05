@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Snake</title>
+</head>
+<link rel=stylesheet id=style type=text/css href=./css/Snake.css />
+<script type="text/javascript" src="./js/Snake.js"></script>
+<body>
+    <div class="header"><h1>Snake</h1></div>
+    <div id="snakeGame" class="gameArea">
+		<div id="board"></div>
+		<div id="scorePanel" class="panel">
+			<div id="high-score" class="inner-panel">High Score: 0</div>
+			<div id="current-score" class="inner-panel">Current Score: 0</div>
+		</div>
+	</div>
+	<div id="pauseModal" class="modal" display="none"></div>
+	<div id="startModal" class="modal" display="none"></div>
+	<div id="lostModal" class="modal" display="none"></div>
+	<script type="text/javascript">
+	let game = new Snake();
+	game.initBoard();
+	</script>
+</body>
+</html>

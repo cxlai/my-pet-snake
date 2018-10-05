@@ -1,0 +1,86 @@
+.header {
+	width: calc(25 * 24px); 
+	margin: auto;
+}
+
+h1 {
+	font-family: helvetica;
+	font-size: 36px;
+}
+
+.gameArea {
+	position: relative;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	width: calc(25 * 24px);
+}
+
+#board {
+	width: calc(25 * 24px);
+	margin: auto;
+}
+
+#board div {
+	background-color: #7AA252;
+	float: left;
+	width: 24px;
+	height: 24px;
+}
+
+#board .snake {
+	background-color: #000000;
+}
+
+#board .apple {
+	background-color: red;
+}
+
+.panel {
+	display: flex;
+	flex-direction: row;
+	font-family: helvetica;
+	text-align: right;
+	margin-top: 10px;
+}
+
+.inner-panel {
+	font-family: helvetica;
+	text-align: right;
+	margin: auto;
+}
+
+.modal {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-radius: 0.2rem;
+	padding: 30px;
+	margin: 25vh 0 0 38vw;
+	width: 20vw;
+	box-shadow: 1px 2px 5px 2px #aaa;
+	
+	z-index: 2;
+	background-color: #fff;
+	font-family: helvetica;
+	text-align: center;
+	font-size: 1em;
+}
+
+button {
+	border: 0;
+	border-radius: 0.2rem;
+	padding: 0.25em 0.5em;
+	margin: 0.25em;
+	
+	background: #5FB6E5;
+	color: #fff;
+	font-family: helvetica;
+	font-size: 0.9em;
+	line-height: 1.2;
+	white-space: nowrap;
+	text-decoration: none;
+
+	cursor: pointer;
+}
